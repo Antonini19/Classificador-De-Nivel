@@ -8,11 +8,13 @@ while (continuar ) { //enqunto meu continuar for TRUE ele executa todo o codigo
         break;//vai encerrarb o loop imediatamente
 
         }else{ //senão executa isso a baixo
+
                 //variaveis
             let Monstro = prompt("Digite quantos monstros matou:")
             let xpColetado = Monstro * 150
             let nivel = ""
-            
+                //condição switch
+
                 switch (true) {
                             case (xpColetado <1000):
                                 nivel = "ferro"
@@ -50,6 +52,8 @@ while (continuar ) { //enqunto meu continuar for TRUE ele executa todo o codigo
                              "\nNivel: "+nivel+"."+
                         "\nQuantidade de mosntros: "+Monstro+"." +
                         "\nQuantidade de xp:"+ xpColetado+"."
-                            )
+                            ) //nesse console log mostra: nome,nivel,monstros,xp.
             }
 }
+//nesse projeto foi feito com variavies,operadores, laços de repetiçoes e estrutur de decisões.
+
